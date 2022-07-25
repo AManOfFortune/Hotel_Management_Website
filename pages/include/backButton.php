@@ -1,0 +1,1 @@
+<a class="back-btn" href="<?= /*Goes back to the previous page, but removes all GET parameters*/ strtok($_SERVER['HTTP_REFERER'], '?') ?>"><img src="../../pictures/icons/back_arrow.png"></a>
